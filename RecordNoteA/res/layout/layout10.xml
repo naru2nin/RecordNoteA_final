@@ -1,0 +1,153 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RecNoteLayout9"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/Gainsboro" >
+
+    <TableRow
+        android:id="@+id/tableRow91"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/LightGray" >
+
+        <ImageButton
+            android:id="@+id/imageMenu1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:baselineAlignBottom="true"
+            android:contentDescription="@string/menubtn"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_menu_sidebar_low" />
+
+        <ImageView
+            android:id="@+id/imageLogo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/logo"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:src="@drawable/ic_logo_low" />
+
+        <ImageButton
+            android:id="@+id/imageAdd1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:baselineAlignBottom="true"
+            android:contentDescription="@string/addbtn"
+            android:focusable="false"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_menu_add_low" />
+
+        <ImageButton
+            android:id="@+id/imageSearch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:baselineAlignBottom="true"
+            android:contentDescription="@string/searchbtn"
+            android:focusable="false"
+            android:paddingLeft="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_menu_search_low" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow92"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Gray" >
+
+        <TextView
+            android:id="@+id/sortLabel1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text="@string/sort_mod_time"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/White"
+            android:layout_span="4" />
+
+        <ImageButton
+            android:id="@+id/imageSort1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|right"
+            android:layout_span="1"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/sortbtn"
+            android:paddingTop="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_titlebar_right_arrow" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow93"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/Khaki" >
+
+        <TextView
+            android:id="@+id/listedRec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text="@string/rec"
+            android:layout_span="2"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/listedTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:text="@string/time"
+            android:layout_span="2"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/Gray" />
+
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow94"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/Khaki" >
+
+        <TextView
+            android:id="@+id/listedRec1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text="@string/rec1"
+            android:layout_span="2"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/imageLock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingTop="10dp"
+            android:layout_span="1"
+            android:src="@drawable/ic_menu_lock_low" />
+
+        <TextView
+            android:id="@+id/listedTime1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/time1"
+            android:layout_span="1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/Gray" />
+
+    </TableRow>
+
+</TableLayout>

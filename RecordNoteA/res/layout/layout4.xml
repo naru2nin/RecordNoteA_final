@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/RecNoteLayout3"
+    android:background="@color/Black" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="122dp"
+        android:background="@color/White"
+        android:dividerPadding="5dp"
+        android:showDividers="middle"
+        android:id="@+id/RecNoteSubLayout" >
+
+        <TableRow
+            android:id="@+id/tableRow31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/Red"
+                android:padding="5dp"
+                android:src="@drawable/bg_widget_normal_low" />
+
+            <ImageButton
+                android:id="@+id/color1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/Orange"
+                android:padding="5dp"
+                android:src="@drawable/bg_widget_normal_low" />
+
+            <ImageButton
+                android:id="@+id/color2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/Yellow"
+                android:padding="5dp"
+                android:src="@drawable/bg_widget_normal_low" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/color3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/Green"
+                android:padding="5dp"
+                android:src="@drawable/bg_widget_normal_low" />
+
+            <ImageButton
+                android:id="@+id/color4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/Blue"
+                android:padding="5dp"
+                android:src="@drawable/bg_widget_normal_low" />
+
+            <ImageButton
+                android:id="@+id/color5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/Fuchsia"
+                android:padding="5dp"
+                android:src="@drawable/bg_widget_normal_low" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/color6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/Black"
+                android:padding="5dp"
+                android:src="@drawable/bg_widget_normal_low" />
+
+            <ImageButton
+                android:id="@+id/color7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/Gray"
+                android:padding="5dp"
+                android:src="@drawable/bg_widget_normal_low" />
+
+            <ImageButton
+                android:id="@+id/color8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/White"
+                android:padding="5dp"
+                android:src="@drawable/bg_widget_normal_low" />
+
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RecordNote</string>
+    <string name="action_settings">Settings</string>
+    <string name="sort_mod_time">Sort by Modified time</string>
+    <string name="edit_mode">Editing</string>
+    <string name="date_time_label">Date and Time</string>
+    <string name="menubtn">Menu Button</string>
+    <string name="addbtn">Add button</string>
+    <string name="logo">RecordNote Logo</string>
+    <string name="searchbtn">Search Button</string>
+    <string name="sortbtn">Sort Button</string>
+    <string name="titlehint">Title</string>
+    <string name="notecolor">Note Color</string>
+    <string name="addcolumn">Add Column</string>
+    <string name="column">Column</string>
+    <string name="colmenu">Column Menu</string>
+    <string name="del">Delete</string>
+    <string name="addrow">Add Row</string>
+    <string name="row">Row</string>
+    <string name="create">Create</string>
+    <string name="ok">OK</string>
+    <string name="lasttime">Time editted ago</string>
+    <string name="col1">Column1</string>
+    <string name="col2">Column2</string>
+    <string name="row1">RowText</string>
+    <string name="rec">Record</string>
+    <string name="rec1">Record 1</string>
+    <string name="time">11:00am</string>
+    <string name="time1">1:00pm</string>
+    
+    <string-array name="column_options">
+  	        <item>Text</item>
+  	        <item>Check</item>
+	</string-array>
+
+</resources>
