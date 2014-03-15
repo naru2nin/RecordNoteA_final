@@ -11,4 +11,4 @@ README:
 - to check the Codes pls import the folder: RecordNoteA
 - apk: apk/signed/RecordNoteA  (this is the signed app)
 	* pls take note, other files in apk/ are unsigned
-- Manual is the
+- Manual is the "Suralta_Manual_new.docx"
