@@ -3,6 +3,10 @@ RecordNoteA_final
 
 ![Alt text](/1.png "RecordNote")
 
+![Alt text](/4.png "RecordNote")
+
+![Alt text](/5.png "RecordNote")
+
 Type: Android Application
 By: Jhuls Bryan S. Suralta   BSIT4
 Class: Android 1   SAT 1pm-5pm
